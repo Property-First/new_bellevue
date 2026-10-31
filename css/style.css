@@ -2159,3 +2159,43 @@ ul{
     }
 
 }
+
+
+.property-price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.property-price-table th,
+.property-price-table td {
+    padding: 14px 16px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.property-price-table th {
+    background: #f5f2eb;
+    color: #222;
+    font-weight: 600;
+}
+
+.property-price-table td {
+    color: #444;
+}
+
+.property-price-table tbody tr:hover {
+    background: #fafafa;
+}
+
+@media (max-width: 576px) {
+    .property-price-table {
+        font-size: 12px;
+    }
+
+    .property-price-table th,
+    .property-price-table td {
+        padding: 10px 7px;
+    }
+}
